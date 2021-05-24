@@ -2,8 +2,9 @@ import Article from './Article';
 import Footer from './Footer';
 import Header from './Header'
 import FixedMenu from './FixedMenu'
-console.log(Article);
+import Menu from './Menu';
+// console.log(Article);
 
 export {
-    Article, Footer, Header, FixedMenu
+    Article, Footer, Header, FixedMenu, Menu
 }
