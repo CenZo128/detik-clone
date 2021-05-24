@@ -9,7 +9,11 @@ function Article() {
                     <Headline></Headline>
                 </div>
                 <div className="col-md-4">
-                    Lorem Ipsum
+                    <div className="row">
+                        <div className="col-12">
+                            <p className="text-blue">Do Your Magic</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
