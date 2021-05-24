@@ -1,0 +1,26 @@
+.bg {
+    &-gradient {
+        background: rgb(36, 75, 156);
+        // background: linear-gradient(0deg, $primary-color 0%, lighten($primary-color, 15%) 90%);
+    }
+}
+
+.text {
+    &-orange {
+        color: $orange-yellow;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    &-white {
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+.line {
+    &-white {
+        width: 100%;
+        border-bottom: 1px solid rgba(255,255,255,0.25);
+    }
+}
