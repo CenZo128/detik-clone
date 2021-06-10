@@ -24,6 +24,18 @@
     }
 }
 
+.card {
+    border: none;
+    cursor: pointer;
+    p {
+        margin-bottom: 0;
+    }
+    &:hover {
+        p {
+            color: lighten($primary-color, 15%)
+        }
+    }
+}
 
 .headline {
     width: 100%;

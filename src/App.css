@@ -27,6 +27,17 @@
   color: #ffffff;
 }
 
+.card {
+  border: none;
+  cursor: pointer;
+}
+.card p {
+  margin-bottom: 0;
+}
+.card:hover p {
+  color: #3b6cd2;
+}
+
 .headline {
   width: 100%;
 }
@@ -44,6 +55,17 @@
   color: #ffffff;
   font-size: 1rem;
   font-weight: bold;
+}
+.text-blue {
+  color: #244B9C;
+  font-weight: bold;
+}
+.text-blue-card {
+  font-weight: bold;
+  cursor: pointer;
+}
+.text-blue-card:hover {
+  color: #3b6cd2;
 }
 
 .line-white {
